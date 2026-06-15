@@ -1,0 +1,85 @@
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website Prototype</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <header>
+        <nav>
+            <h1 class="logo">My Prototype</h1>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+             </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <h2>Welcome to My Website</h2>
+        <p>This is a prototype created for my Interaction Design assignment.</p>
+        <button onclick="showMessage()">Get Started</button>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="content-section">
+        <h2>About Us</h2>
+        <p>
+            This website demonstrates usability, user experience, accessibility,
+            and interaction design principles.
+        </p>
+        </section>
+
+    <!-- Services Section -->
+    <section id="services" class="content-section">
+        <h2>Our Services</h2>
+
+        <div class="card-container">
+            <div class="card">
+                <h3>Web Design</h3>
+                <p>User-friendly and responsive websites.</p>
+            </div>
+
+            <div class="card">
+                <h3>Mobile Support</h3>
+                <p>Accessible on desktop and mobile devices.</p>
+            </div>
+            <div class="card">
+                <h3>Customer Support</h3>
+                <p>Quick communication and feedback systems.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section id="contact" class="content-section">
+        <h2>Contact Us</h2>
+
+        <form>
+            <input type="text" placeholder="Enter your name" required>
+            <input type="email" placeholder="Enter your email" required>
+            <textarea placeholder="Type your message"></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+     <!-- Footer -->
+    <footer>
+        <p>© 2026 My Website Prototype</p>
+
+        <div class="socials">
+            <a href="#">Facebook</a>
+            <a href="#">Instagram</a>
+            <a href="#">Twitter</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
